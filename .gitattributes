@@ -53,3 +53,7 @@ registry/**/*.html linguist-vendored
 # through LFS — the small MP3 stings stay plain so the example still clones and
 # renders without `git lfs pull`.
 examples/docs-reference-project/**/*.wav filter=lfs diff=lfs merge=lfs -text
+
+# Setevik delivery binaries follow the repository large-file policy.
+SETEVIK-REELS/output/Setevik-Reels.mp4 filter=lfs diff=lfs merge=lfs -text
+SETEVIK-REELS/output/Setevik-HyperFrames.zip filter=lfs diff=lfs merge=lfs -text

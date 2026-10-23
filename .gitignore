@@ -201,3 +201,10 @@ chrome/
 # Python bytecode from running skill scripts
 __pycache__/
 *.pyc
+
+# Setevik delivery files intentionally versioned for download.
+!/SETEVIK-REELS/output/
+/SETEVIK-REELS/output/*
+!/SETEVIK-REELS/output/Setevik-Reels.mp4
+!/SETEVIK-REELS/output/Setevik-HyperFrames.zip
+!/SETEVIK-REELS/output/Описание-и-проверка.md
